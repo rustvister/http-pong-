@@ -1,6 +1,6 @@
 # Http-Pong
 
-This is a fork simple app to play with docker exposing ports and curl passing parameters.
+This is a clone simple app to play with docker exposing ports and curl passing parameters.
 
 The app starts on localhost and dumps all HTTP requests with headers that it receives.
 
@@ -19,7 +19,3 @@ curl -H foo:bar localhost:5000
 
 docker stop fd15987d2a3a837d63b7efd49825254e8f4e2b75bc9cbd3ba86f4ff9667c01d4 # use id produced by docker-run command
 ```
-
-### License and author
-* License:: MIT
-* Author:: <rustvister@gmail.com>
